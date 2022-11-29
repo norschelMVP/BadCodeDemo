@@ -11,6 +11,7 @@ on:
     branches: [ main ]
   schedule:
     - cron: '41 13 * * 3'
+  workflow_dispatch:
 
 jobs:
   SCS:
